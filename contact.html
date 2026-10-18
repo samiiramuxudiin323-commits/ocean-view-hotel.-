@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nala soo xiriir Ocean View Hotel si aad u qabsato qol ama wax uga ogaato adeegyadayada.">
+  <title>Ocean View Hotel | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation & Header (Flexbox Layout) -->
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">Ocean View Hotel</a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Nala Soo Xiriir</h1>
+    <p class="page-subtitle">Ma leedahay wax su'aal ah ama ma rabtaa inaad qol qabsato? Foomkan hoose buuxi si aan kugu caawino.</p>
+
+    <div class="contact-wrapper">
+      <!-- Contact Info Section -->
+      <section class="contact-info">
+        <h2>Xogta Xiriirka</h2>
+        <p><strong>Cinwaanka:</strong> Wadada Xeebta Liido, Muqdisho, Soomaaliya</p>
+        <p><strong>Telefoonka:</strong> +252 61 0000000 / +252 62 0000000</p>
+        <p><strong>Email-ka:</strong> info@oceanviewhotel.so</p>
+        <p><strong>Saa'adaha Shaqada:</strong> 24/7 (Maalin iyo Habeenba)</p>
+      </section>
+
+      <!-- Accessible & Working Contact Form -->
+      <section class="contact-form-section">
+        <h2>Foomka Xiriirka</h2>
+        <form action="https://formspree.io/f/sample" method="POST" class="contact-form">
+          
+          <div class="form-group">
+            <label for="fullname">Magacaaga Dhameystiran *</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Geli magacaaga" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email-kaaga *</label>
+            <input type="email" id="email" name="email" placeholder="tusaale@gmail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Nambarka Telefoonka</label>
+            <input type="tel" id="phone" name="phone" placeholder="+252 61 XXXXXXX">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Nuxurka/Mowduuca *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Doorasho samay...</option>
+              <option value="room-booking">Qabsasho Qol (Room Booking)</option>
+              <option value="general-inquiry">Su'aal Guud</option>
+              <option value="event-hall">Rasiibka Hoolka Shirarka</option>
+              <option value="feedback">Fikir/Talo</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Fariintaada *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Halkan ku qor fariintaada..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn submit-btn">Dir Fariinta</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Ocean View Hotel. Dhammaan xuquuqda waa la dhowray.</p>
+      <p>Muqdisho, Soomaaliya | Tel: +252 61 0000000</p>
+    </div>
+  </footer>
+
+</body>
+</html>
